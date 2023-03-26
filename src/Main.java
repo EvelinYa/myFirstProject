@@ -23,6 +23,7 @@ public class Main {
      */
 
     public static int processInput(String word1, String word2) {
+
         return word1.length() + word2.length();
     }
 
