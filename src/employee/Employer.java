@@ -10,7 +10,7 @@ public class Employer {
 
         System.out.println();
         System.out.println("Second employee");
-        Employee emp2 = new Employee(23456, "Dziabczyk",  75000);
+        Employee emp2 = new Employee(23456, "Dziabczyk", 75000);
         emp2.showId();
         emp2.showSalary();
         emp2.showSurname();

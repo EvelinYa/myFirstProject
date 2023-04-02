@@ -1,9 +1,9 @@
 package employee;
 
 public class Employee {
-    private int salary;
     public String surname;
     int id;
+    private final int salary;
 
     Employee(int id, String surname, int salary) {
         this(surname, id, salary);
