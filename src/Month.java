@@ -17,13 +17,13 @@ public class Month {
             System.out.println("\"" + word2 + "\" and \"" + word3 + "\" are equal and both have the max word length");
         } else if (/*l1 == l2 && */l2 > l3) {
             System.out.println("\"" + word1 + "\" and \"" + word2 + "\" are equal and both have the max word length");
-        } else /*if (l1 == l2 && l2 == l3)*/{
-            System.out.println("\"" + word1 + "\" and \"" + word2 + "\" and \"" +  word3 + "\" are equal and have the same word length");
+        } else /*if (l1 == l2 && l2 == l3)*/ {
+            System.out.println("\"" + word1 + "\" and \"" + word2 + "\" and \"" + word3 + "\" are equal and have the same word length");
         }
     }
 
     public static void getMonthDays(int month) {
-        switch(month) {
+        switch (month) {
             case 1:
             case 3:
             case 5:
@@ -65,7 +65,7 @@ public class Month {
     public static void printRightBottomTree(int length) {
         for (int count = 1; count <= length; count++) {
             for (int i = length - 1; i >= 0; i--) {
-                if(i <= length - count) {
+                if (i <= length - count) {
                     System.out.print("x");
                 } else {
                     System.out.print(" ");
@@ -76,9 +76,9 @@ public class Month {
     }
 
     public static void printRightTopTree(int length) {
-        for (int count = 1; count<=length; count++) {
+        for (int count = 1; count <= length; count++) {
             for (int i = 0; i < length; i++) {
-                if(i < length - count) {
+                if (i < length - count) {
                     System.out.print(" ");
                 } else {
                     System.out.print("x");
