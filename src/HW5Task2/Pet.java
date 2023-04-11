@@ -6,6 +6,7 @@ class Pet extends Animal {
     private int paw = 4;
 
     Pet() {
+        super();
         setEyes(2);
         System.out.println("I am pet");
     }

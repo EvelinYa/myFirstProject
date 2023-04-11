@@ -2,6 +2,7 @@ package HW5Task2;
 
 class Dog extends Pet {
     Dog(String name) {
+        super();
         this.name = name;
         System.out.println("I am dog and my name is: " + this.name);
     }

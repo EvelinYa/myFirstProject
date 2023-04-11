@@ -3,6 +3,7 @@ package HW5Task2;
 class Cat extends Pet {
 
     Cat(String name) {
+        super();
         this.name = name;
         System.out.println("I am cat and my name is: " + this.name);
     }
