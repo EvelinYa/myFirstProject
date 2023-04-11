@@ -1,19 +1,21 @@
+package HW5Task2;
+
 class Pet extends Animal {
-    protected String name;
     private final int tail = 1;
+    protected String name;
     private int paw = 4;
 
     Pet() {
-        this.eyes = 2;
+        setEyes(2);
         System.out.println("I am pet");
     }
 
     void run() {
-        System.out.println("Pet runs");
+        System.out.println("HW5Task2.Pet runs");
     }
 
     void jump() {
-        System.out.println("Pet runs « jumps");
+        System.out.println("HW5Task2.Pet runs « jumps");
     }
 
     int getPaw() {

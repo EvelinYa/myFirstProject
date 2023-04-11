@@ -1,3 +1,5 @@
+package HW5Task2;
+
 class Cat extends Pet {
 
     Cat(String name) {

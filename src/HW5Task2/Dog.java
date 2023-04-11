@@ -1,3 +1,5 @@
+package HW5Task2;
+
 class Dog extends Pet {
     Dog(String name) {
         this.name = name;
@@ -5,6 +7,6 @@ class Dog extends Pet {
     }
 
     void play() {
-        System.out.println("Dog plays");
+        System.out.println("HW5Task2.Dog plays");
     }
 }

@@ -1,3 +1,5 @@
+package HW5Task2;
+
 public class Test extends Pet {
 
     public static void main(String[] args) {
